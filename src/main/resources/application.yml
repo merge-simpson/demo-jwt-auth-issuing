@@ -1,0 +1,7 @@
+spring:
+  application.name: demo-jwt-auth-logic-only
+  config:
+    import:
+      - app/password/password.yml
+      - app/redis/redis.yml
+      - app/jwt/jwt.yml
